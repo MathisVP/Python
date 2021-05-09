@@ -128,25 +128,25 @@ def secante(f, x0, x1, epsilon, Nitermax):
 
 def main():
 
-	# print("#"*10 + "Point Fixe" + "#"*10)
-	# print("La solution pour la cinquième équation est : ", PointFixe(g5, 3/2 ,1e-6, 5e4),"\n")
-	# print("La solution pour la sixième équation est :   ", PointFixe(g6, 1.8 ,1e-6, 5e4),"\n")
-	# print("La solution pour la septième équation est :  ", PointFixe(g7, 1.6 ,1e-6, 5e4),"\n")
+	print("#"*10 + "Point Fixe" + "#"*10)
+	print("La solution pour la cinquième équation est : ", PointFixe(g5, 3/2 ,1e-6, 5e4),"\n")
+	print("La solution pour la sixième équation est :   ", PointFixe(g6, 1.8 ,1e-6, 5e4),"\n")
+	print("La solution pour la septième équation est :  ", PointFixe(g7, 1.6 ,1e-6, 5e4),"\n")
 
-	# print("#"*10 + "Newton" + "#"*10)
-	# print("La solution pour la cinquième équation est : ", Newton(f5, fder5,   3/2 ,1e-6, 5e4),"\n")
-	# print("La solution pour la sixième équation est :   ", Newton(f6, fder6,   1.8 ,1e-6, 5e4),"\n")
-	# print("La solution pour la septième équation est :  ", Newton(f7, fder7,   1.6 ,1e-6, 5e4),"\n")
+	print("#"*10 + "Newton" + "#"*10)
+	print("La solution pour la cinquième équation est : ", Newton(f5, fder5,   3/2 ,1e-6, 5e4),"\n")
+	print("La solution pour la sixième équation est :   ", Newton(f6, fder6,   1.8 ,1e-6, 5e4),"\n")
+	print("La solution pour la septième équation est :  ", Newton(f7, fder7,   1.6 ,1e-6, 5e4),"\n")
 
-	# print("#"*10 + "Dichotomie" + "#"*10)
-	# print("La solution pour la cinquième équation est : ", dichotomie(f5, 1, 2, 1e-6, 5e4),"\n")
-	# print("La solution pour la sixième équation est :   ", dichotomie(f6, 1, 2, 1e-6, 5e4),"\n")
-	# print("La solution pour la septième équation est :  ", dichotomie(f7, 1, 2, 1e-6, 5e4),"\n")
+	print("#"*10 + "Dichotomie" + "#"*10)
+	print("La solution pour la cinquième équation est : ", dichotomie(f5, 1, 2, 1e-6, 5e4),"\n")
+	print("La solution pour la sixième équation est :   ", dichotomie(f6, 1, 2, 1e-6, 5e4),"\n")
+	print("La solution pour la septième équation est :  ", dichotomie(f7, 1, 2, 1e-6, 5e4),"\n")
 
-	# print("#"*10 + "Sécante" + "#"*10)
-	# print("La solution pour la cinquième équation est : ", secante(f5, 1.2, 2, 1e-6, 5e4),"\n")
-	# print("La solution pour la sixième équation est :   ", secante(f6, 1, 2, 1e-6, 5e4),"\n")
-	# print("La solution pour la septième équation est :  ", secante(f7, 1, 2, 1e-6, 5e4),"\n")
+	print("#"*10 + "Sécante" + "#"*10)
+	print("La solution pour la cinquième équation est : ", secante(f5, 1.2, 2, 1e-6, 5e4),"\n")
+	print("La solution pour la sixième équation est :   ", secante(f6, 1, 2, 1e-6, 5e4),"\n")
+	print("La solution pour la septième équation est :  ", secante(f7, 1, 2, 1e-6, 5e4),"\n")
 
 	print("#"*10 + "Pour l'équation 2x = 1 + sin(x)" + "#"*10)
 	print("La solution avec la méthode du point fixe est: ", PointFixe(g, 0, 1e-6, 5e4),"\n")
